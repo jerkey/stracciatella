@@ -3,7 +3,8 @@ const { merge } = require("webpack-merge");
 const common = require("./webpack.common.js");
 const openBrowser = require("react-dev-utils/openBrowser");
 
-const DEV_URL = "http://localhost:8080";
+const DEV_URL = "http://localhost:3333"; // this doesn't affect anything?
+// put --port 9000 at the end of the npm start command in package.json
 
 module.exports = merge(common, {
   mode: "development",

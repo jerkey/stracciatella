@@ -4,7 +4,7 @@
   "description": "Boilerplate for a simple vanilla JS front-end app with components and state management",
   "private": true,
   "scripts": {
-    "start": "webpack serve --config webpack.dev.js",
+    "start": "webpack serve --config webpack.dev.js --port 9000",
     "build": "webpack --config webpack.prod.js",
     "host": "serve -d dist",
     "test": "jest"
